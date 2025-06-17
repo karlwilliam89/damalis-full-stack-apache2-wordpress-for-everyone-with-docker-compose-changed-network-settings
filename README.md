@@ -1,5 +1,15 @@
 # [full stack apache2 WordPress for everyone with docker compose](https://github.com/damalis/full-stack-apache2-wordpress-for-everyone-with-docker-compose)
 
+All credit goes to damalis. I just tweaked some network settings to my preference:
+- Removed "links" as they are legacy: https://docs.docker.com/engine/network/links/
+- Changed network driver to "bridge"
+- Commented out some unnecessary port exposures
+- only use one network instead of two
+
+If those settings becomes merged on the main project then this fork becomes obsolete.
+
+----------------
+
 If You want to build a website with WordPress at short time;
 
 #### Full stack Apache2 WordPress:
