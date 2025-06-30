@@ -116,7 +116,7 @@ services:
         hostname: phpmyadmin
         restart: unless-stopped
         ports:
-            - '[2001:464F:6F83:3001::1]:9090:443'
+            - '9090:443'
         environment:
             PMA_HOST: 'database'
             PMA_PMADB: 'phpmyadmin'
